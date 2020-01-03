@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home | Welcome</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <a href="index.html" class="logo"
+          ><strong>modern</strong> <span>developer</span></a
+        ><br />
+
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="npm.html">NPM</a></li>
+          <li><a href="gulp.html">Gulp</a></li>
+          <li><a href="sass.html">SASS</a></li>
+          <li><a href="bem.html">SASS & BEM</a></li>
+        </ul>
+      </nav>
+
+      <!-- Banner -->
+      <section id="banner" class="major hero-home">
+        <div class="inner">
+          <header class="major">
+            <h1>The Modern Developer</h1>
+          </header>
+
+          <div class="content">
+            <p>
+              Enhancing Your<br />
+              Development Process
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="inner">
+            <header class="major">
+              <h2>Hello</h2>
+            </header>
+            <p>
+              Throughout this project we will explore different ways to level up
+              your developement process. Some of the technologies we will be
+              going over are modern css preproccesing, implementing open source
+              code using package managers , automating workflow with javascript
+              build tools, and industry standard naming conventions. Adopting
+              some of these principals will improve the qaulity of your code
+              allowing for easily maintable and clean code.
+            </p>
+
+            <p>
+              In this project I will specifically address the tools I use on a
+              regular basis. As a css preproccessor I generally choose to stick
+              with SASS which stands for Systematically Awesome Style Sheets. In
+              order to implement preproccessors one must use either a build
+              tool, package manger, or both. For these I tend to use NPM "Node
+              Package Manager" and Gulp.js. In order to write cleaner code I use
+              a naming convention called BEM "Block Element Modifier". Thank you
+              for reading and I hope that you find this information useful.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Two -->
+
+      <div id="two" class="tiles">
+        <article>
+          <span class="image">
+            <img
+              src="images/pic01.jpg"
+              alt="Blue background"
+              title="Blue background"
+              height="576"
+              width="409"
+            />
+          </span>
+          <header class="major">
+            <h3><a href="npm.html" class="link">NPM</a></h3>
+            <p>node package manager</p>
+          </header>
+        </article>
+        <article>
+          <span class="image">
+            <img
+              src="images/pic02.jpg"
+              alt="Purple background"
+              title="purple background"
+              height="864"
+              width="409"
+            />
+          </span>
+          <header class="major">
+            <h3><a href="gulp.html" class="link">GULP</a></h3>
+            <p>gulp.js</p>
+          </header>
+        </article>
+        <article>
+          <span class="image">
+            <img
+              src="images/pic03.jpg"
+              alt="red background"
+              title="red background"
+              height="864"
+              width="410"
+            />
+          </span>
+          <header class="major">
+            <h3><a href="sass.html" class="link">SASS</a></h3>
+            <p>Systematically Awesome Style Sheets</p>
+          </header>
+        </article>
+        <article>
+          <span class="image">
+            <img
+              src="images/pic04.jpg"
+              alt="orange background"
+              title="orange background"
+              height="576"
+              width="410"
+            />
+          </span>
+          <header class="major">
+            <h3><a href="bem.html" class="link">BEM</a></h3>
+            <p>Block Element Modifier</p>
+          </header>
+        </article>
+      </div>
+
+      <!-- Contact -->
+      <div id="contact">
+        <div class="inner">
+          <div>
+            <form
+              method="post"
+              action="mailto:bmc1793@hotmail.com"
+              enctype="text/plain"
+            >
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="YOUR NAME"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="EMAIL"
+                  />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="6"
+                    required
+                    placeholder="TEXT HERE"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Clear" /></li>
+              </ul>
+            </form>
+          </div>
+          <div class="split">
+            <section>
+              <div class="contact-method">
+                <span class="icon alt fa-envelope"></span>
+                <h3>Email</h3>
+                <span>bmc1793@hotmail.com</span>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon alt fa-phone"></span>
+                <h3>Phone</h3>
+                <span>(313) 908 3808</span>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.instagram.com/collinz_777/?hl=en"
+                class="icon alt fa-instagram"
+                target="_blank"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/collins777"
+                class="icon alt fa-github"
+                target="_blank"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/collins777/"
+                class="icon alt fa-linkedin"
+                target="_blank"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            <li>This site is for educational purposes only.</li>
+            <li>
+              <a href="../home.htm" class="homepage"> -- Back to Homepage --</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/clock.js"></script>
+  </body>
+</html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->

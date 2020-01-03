@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+  <head>
+    <title>Block Element Modifier | BEM</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <a href="http://getbem.com/" class="logo" target="_blank"
+          ><strong>Block</strong> <span>Element Modifier</span></a
+        >
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="npm.html">NPM</a>
+          </li>
+          <li>
+            <a href="gulp.html">Gulp</a>
+          </li>
+          <li>
+            <a href="sass.html">SASS</a>
+          </li>
+          <li>
+            <a href="bem.html">SASS & BEM</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main" class="alt">
+        <!-- One -->
+        <section id="one">
+          <div class="inner">
+            <span class="image main"
+              ><img
+                src="images/bem.png"
+                alt="block element modifier logo"
+                title="block element modifier logo"
+                height="660"
+                width="1473"
+            /></span>
+            <header class="major">
+              <h2>BEM "Block Element Modifer"</h2>
+            </header>
+            <p>
+              The Block Element Modifier methodology is a populer naming
+              convention for classes in both HTML and CSS. It was created to
+              help developers better understand the realtionship between HTML
+              and CSS while working though projects. It was developed by the
+              team at Yandex.
+            </p>
+            <p>
+              Within this methodology a block would be considered a top level
+              abstraction for a new component, for example if we were designing
+              a button we would name our class: .btn. This block should be
+              thought of as the parent. Child elements can be placed inside and
+              these are represented by two underscores like so: .btn__price.
+              Lastly we will deal with the modifier. The block .btn can be
+              modified in many ways in order to alter the style of a particular
+              compnenet without infilicting changes on an unrelated class. This
+              is done by adding gtwo hyphen to the name of the block level
+              element like so: .btn--orange.
+            </p>
+            <ul class="actions">
+              <li>
+                <a href="http://getbem.com/" class="button" target="_blank"
+                  >Learn more</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <div class="inner">
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://www.instagram.com/collinz_777/?hl=en"
+                  class="icon alt fa-instagram"
+                  target="_blank"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/collins777"
+                  class="icon alt fa-github"
+                  target="_blank"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/collins777/"
+                  class="icon alt fa-linkedin"
+                  target="_blank"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+            </ul>
+            <ul class="copyright">
+              <li>&copy; Untitled</li>
+              <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+              <li>This site is for educational purposes only.</li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

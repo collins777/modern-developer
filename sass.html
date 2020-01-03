@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+  <head>
+    <title>Systematically Awesome Style Sheets - SASS</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <a href="https://sass-lang.com/" class="logo" target="_blank"
+          ><strong>SASS</strong>
+          <span>Systematically Awesome Style Sheets</span></a
+        >
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="npm.html">NPM</a>
+          </li>
+          <li>
+            <a href="gulp.html">Gulp</a>
+          </li>
+          <li>
+            <a href="sass.html">SASS</a>
+          </li>
+          <li>
+            <a href="bem.html">SASS & BEM</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main" class="alt">
+        <!-- One -->
+        <section id="one">
+          <div class="inner">
+            <span class="image main"
+              ><img
+                src="images/sass.svg"
+                alt="sass logo"
+                title="sass logo"
+                height="384"
+                width="512"
+            /></span>
+            <header class="major">
+              <h2>Why Should you Preprocess your CSS?</h2>
+            </header>
+            <h3>Variables</h3>
+            <p>
+              There are many reasons why you might consider using a preprocessor
+              for your css. Sass allows developers to save css code into
+              variables. Let's say you have a huge project in which you're
+              constantly writing out 'color: #333', in your css. Sass allows you
+              to save #333 into a variable such a $primary-color or $dark-grey.
+            </p>
+          </div>
+        </section>
+        <div class="content">
+          <div class="inner">
+            <h3>Nesting</h3>
+            <p>
+              In addition to variables, Sass allows you to nest your CSS.
+              Nesting CSS will allow for a clear visual representation of code
+              hierachy. Nesting code will allow you to quickly navigate a
+              document and understand what the code is doing. It is best
+              practice to avoid overly nested rules. The reason for this is that
+              once the Sass is compiled into Css, it could result in overly
+              complicated code which may prove to be unmaintable.
+            </p>
+            <img
+              src="images/nesting.png"
+              alt="Sass nesting versus CSS selector syntax"
+              title="Sass nesting versus CSS selector syntax"
+              height="394"
+              width="624"
+            />
+          </div>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h3>Partials</h3>
+            <p>
+              Sass also allows for the use of partials. Implemting a partial
+              allows the developer to modularize code. Typically a css file
+              could contain hundred to thousands of lines of code, all of which
+              would be representative of header, body, footer, etc.. With sass
+              you can set each component apart.... for example _header.scss,
+              _body.scss, and _footer.scss. The underscore lets Sass know that
+              the file is onl a partial file and that it should not be generated
+              into a css file. Sass partials are used with the @import
+              directive.
+            </p>
+
+            <ul class="actions">
+              <li>
+                <a href="https://sass-lang.com/" class="button" target="_blank"
+                  >Learn more</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.instagram.com/collinz_777/?hl=en"
+                class="icon alt fa-instagram"
+                target="_blank"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/collins777"
+                class="icon alt fa-github"
+                target="_blank"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/collins777/"
+                class="icon alt fa-linkedin"
+                target="_blank"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            <li>This site is for educational purposes only.</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
